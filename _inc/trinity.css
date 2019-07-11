@@ -1,0 +1,91 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.checkbox-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.checkbox-holder div {
+  text-transform: uppercase;
+  margin-right: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.checkbox-holder input {
+  height: 20px;
+  width: 20px;
+}
+.post-ids {
+  min-width: 440px;
+  max-height: 150px;
+  min-height: 150px;
+}
+.post-ids .option {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.inputs {
+  margin-bottom: 30px;
+}
+.inputs div {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.ovelay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000a1;
+  z-index: 99;
+  max-width: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.ovelay .modal {
+  top: 200px;
+  position: fixed;
+  width: 60%;
+  background-color: #efefef;
+}
+.ovelay .modal .modal-header {
+  text-align: center;
+  padding: 30px;
+  background: #00b9ce;
+  color: #f7f7f7;
+  font-size: 32px;
+  line-height: 1.3;
+}
+.ovelay .modal .modal-body {
+  padding: 50px;
+  font-size: 20px;
+  line-height: 1.3;
+  max-height: 320px;
+  overflow: scroll;
+  color: #1d1d1dcc;
+}
